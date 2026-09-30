@@ -1,0 +1,16 @@
+# Local historical preservation snapshot. Contains the untouched original files.
+.preservation/
+
+# Private local configuration and database credentials.
+.env
+.env.*
+infs.txt
+server/inf.txt
+
+# Python-generated files.
+__pycache__/
+*.py[cod]
+
+# Local virtual environments.
+.venv/
+venv/
