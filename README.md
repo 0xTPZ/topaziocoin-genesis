@@ -42,7 +42,7 @@ notify.py
 docs/
 ```
 
-The original database credential notes (`infs.txt`, `server/inf.txt`) and Python bytecode caches are kept out of the public edition. An untouched local preservation copy is also excluded from Git. See [the preservation record](docs/ORIGINAL-STATE.md).
+The original database credential file (`infs.txt`), local run instructions (`server/inf.txt`), and Python bytecode caches are kept out of the public edition. An untouched local preservation copy is also excluded from Git. See [the preservation record](docs/ORIGINAL-STATE.md).
 
 ## License
 

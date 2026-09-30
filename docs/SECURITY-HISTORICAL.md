@@ -24,6 +24,6 @@ The initial review found these categories of sensitive data, whose actual values
 - A Telegram bot token and chat ID in `notify.py`.
 - A hardcoded mining API secret in `server/server.py`.
 
-The Telegram token, chat ID, and mining secret values were replaced in their original code positions with `<REDACTED_HISTORICAL_SECRET>`. The database credential note files are excluded from the public repository. Python bytecode caches are also excluded because they are generated artifacts and may preserve embedded source values. Untouched private originals remain in the local working copy and preservation snapshot; both are Git-ignored and excluded from the public edition.
+The Telegram token, chat ID, and mining secret values were replaced in their original code positions with `<REDACTED_HISTORICAL_SECRET>`. The database credential file is excluded from the public repository. Local run instructions are also excluded as non-implementation material. Python bytecode caches are excluded because they are generated artifacts and may preserve embedded source values. Untouched private originals remain in the local working copy and preservation snapshot; both are Git-ignored and excluded from the public edition.
 
 Treat every credential found during recovery as compromised and rotate/revoke it with its provider. Public documentation does not include secret values. The scan records and source review are summarized in the preservation report; scan patterns are not a guarantee that all possible secrets can be detected automatically.

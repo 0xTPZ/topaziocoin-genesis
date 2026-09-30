@@ -1,7 +1,7 @@
 # Local historical preservation snapshot. Contains the untouched original files.
 .preservation/
 
-# Private local configuration and database credentials.
+# Local configuration and recovery-only notes.
 .env
 .env.*
 infs.txt
